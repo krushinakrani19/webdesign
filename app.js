@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const flieupolad = require('express-fileupload');
 
-const dbUrl = 'mongodb://localhost:27017/commingsoon';
+const dbUrl = 'mongodb+srv://nakranikrushi:CFd9hOq7ZUREwZhK@cluster0.cnjlqxz.mongodb.net/commingsoon';
 mongoose.connect(dbUrl,{ useNewUrlParser: true , useUnifiedTopology: true})
 
 const eSession=require('express-session')
